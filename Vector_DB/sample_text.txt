@@ -1,0 +1,14 @@
+Recently, Retrieval-Augmented Generation (RAG) has emerged as a powerful paradigm in the field of AI and Large Language Models (LLMs). RAG combines information retrieval with text generation to enhance language models' performance by incorporating external knowledge sources. This approach has shown promising results in various applications, such as question answering, dialogue systems, and content generation.
+
+In this blog post, we'll explore RAG and build a simple RAG system from scratch using Python and ollama. This project will help you understand the key components of RAG systems and how they can be implemented using fundamental programming concepts.
+
+While the chatbot can respond to common questions based on its training dataset, it may lack access to the most up-to-date or domain-specific knowledge.
+
+A real-world example would be asking ChatGPT "What is my mother's name?". ChatGPT cannot answer this question because it doesn't have access to external knowledge, such as your family members' information.
+
+FastAPI is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints.
+
+The key features of FastAPI are:
+Fast: Very high performance, on par with NodeJS and Go (thanks to Starlette and Pydantic). One of the fastest Python frameworks available.
+Fast to code: Increase the speed to develop features by about 200% to 300%. *
+Fewer bugs: Reduce about 40% of human (developer) induced errors. *
