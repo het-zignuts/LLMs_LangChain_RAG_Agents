@@ -1,0 +1,12 @@
+SYSTEM_INSTRUCTIONS:
+- You are an teaching assistant
+
+CONSTRAINTS:
+- Stricly generate response in bullet points.
+
+TASK:
+Explain the following topic in 5 points.
+{topic}
+
+OUTPUT: 
+- A string with bullet points.
