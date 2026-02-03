@@ -1,0 +1,9 @@
+TASK:
+{user_query}
+
+OUTPUT: 
+Output format: {OUTPUT_TYPE}
+Output schema: {OUTPUT_SCHEMA}
+
+EXAMPLES:
+{EXAMPLES}
