@@ -1,0 +1,27 @@
+import os
+from sentence_transformers import SentenceTransformer
+from sklearn.manifold import TSNE
+import matplotlib.pyplot as plt
+import numpy as np
+
+with open("sample_text.txt", "r") as file:
+    text=file.read()
+
+chunks=[chunk.strip() for chunk in text.split("\n\n")]
+
+# for i, c in enumerate(chunks):
+#     print(f"Chunk {i}: \n{c}")
+model=SentenceTransformer("all-MiniLM-L6-v2")
+vector_embeds=model.encode(chunks)
+
+# tsne = TSNE(n_components=2, perplexity=3, random_state=42)
+# embedding_2d = tsne.fit_transform(np.array(vector_embeds))
+
+# plt.scatter(embedding_2d[:,0], embedding_2d[:,1])
+
+# for i, text in enumerate(chunks):
+#     plt.annotate(i, (embedding_2d[i,0], embedding_2d[i,1]))
+
+# plt.title("Semantic Clustering of RAG-related Chunks")
+# plt.show()
+print(vector_embeds)
